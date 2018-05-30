@@ -10,6 +10,4 @@
 * 用户上传头像，实现了头像裁剪
 
 # Screenshot
-![](./screenshot/1.PNG)
-![](./screenshot/2.PNG)
-![](./screenshot/3.PNG)
+![](./screenshot/1.PNG) ![](./screenshot/2.PNG) ![](./screenshot/3.PNG)
