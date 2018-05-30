@@ -10,4 +10,5 @@
 * 用户上传头像，实现了头像裁剪
 
 # Screenshot
+<img src="./screenshot/1.PNG" width="30%" height="30%" />
 ![](./screenshot/1.PNG) ![](./screenshot/2.PNG) ![](./screenshot/3.PNG)
