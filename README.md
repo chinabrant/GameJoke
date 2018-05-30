@@ -1,8 +1,15 @@
-# lol_joke
+# 游戏段子
 
-A new Flutter project.
+后台基于LeanCloud
 
-## Getting Started
+### 实现的功能：
+* 展示段子
+* 发表段子
+* 广场：所有段子
+* 游戏列表
+* 用户上传头像，实现了头像裁剪
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+# Screenshot
+![](./screenshot/1.PNG)
+![](./screenshot/2.PNG)
+![](./screenshot/3.PNG)
