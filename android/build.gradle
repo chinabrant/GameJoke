@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+
+        maven {
+            url "http://mvn.leancloud.cn/nexus/content/repositories/public"
+        }
+    }
+
+
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+        maven {
+            url "http://mvn.leancloud.cn/nexus/content/repositories/public"
+        }
+    }
+
+
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
